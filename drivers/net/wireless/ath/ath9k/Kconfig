@@ -180,7 +180,7 @@ config ATH9K_HTC
 
 config ATH9K_HTC_DEBUGFS
 	bool "Atheros ath9k_htc debugging"
-	depends on ATH9K_HTC && DEBUG_FS
+	depends on DEBUG_FS
 	select ATH9K_COMMON_DEBUG
 	depends on RELAY
 	---help---
